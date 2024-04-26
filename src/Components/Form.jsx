@@ -29,9 +29,11 @@ const handleSubmit = async (e) => {
       
       // Log a success message with the response data
       console.log('Form submitted successfully:', response.data);
+    alert("Form submitted successfully")
   } catch (error) {
       // If an error occurs, log an error message
       console.error('Error submitting form:', error);
+    alert("Form Submission Failed")
   }
 };
 
